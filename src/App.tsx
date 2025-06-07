@@ -3,12 +3,12 @@ import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
-import PropertiesPage from './pages/PropertiesPage';
-import AboutPage from './pages/AboutPage';
-import BlogPage from './pages/BlogPage';
-import ContactPage from './pages/ContactPage';
-import NotFoundPage from './pages/NotFoundPage';
+import HomePage from '../pages/HomePage';
+import PropertiesPage from '../pages/PropertiesPage';
+import AboutPage from '../pages/AboutPage';
+import BlogPage from '../pages/BlogPage';
+import ContactPage from '../pages/ContactPage';
+import NotFoundPage from '../pages/NotFoundPage';
 import ScrollToTop from './components/ScrollToTop';
 
 const App: React.FC = () => {

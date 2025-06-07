@@ -1,6 +1,6 @@
 import React from 'react';
-import { PropertyFilterCriteria, PropertyType } from '../types';
-import { PROPERTY_TYPES_OPTIONS, BEDS_BATHS_OPTIONS, PRICE_RANGE_OPTIONS } from '../constants';
+import { PropertyFilterCriteria, PropertyType } from '../../types';
+import { PROPERTY_TYPES_OPTIONS, BEDS_BATHS_OPTIONS, PRICE_RANGE_OPTIONS } from '../../constants';
 
 interface PropertyFilterProps {
   filters: PropertyFilterCriteria;

@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import PropertyCard from '../components/PropertyCard';
-import PropertyFilter from '../components/PropertyFilter';
-import Pagination from '../components/Pagination';
-import Spinner from '../components/Spinner';
+import PropertyCard from '../src/components/PropertyCard';
+import PropertyFilter from '../src/components/PropertyFilter';
+import Pagination from '../src/components/Pagination';
+import Spinner from '../src/components/Spinner';
 import { Property, PropertyFilterCriteria, PropertyType } from '../types';
 import { getProperties } from '../services/propertyService';
 

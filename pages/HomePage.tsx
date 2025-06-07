@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Hero from '../components/Hero';
-import PropertyCard from '../components/PropertyCard';
-import Spinner from '../components/Spinner';
+import Hero from '../src/components/Hero';
+import PropertyCard from '../src/components/PropertyCard';
+import Spinner from '../src/components/Spinner';
 import { Property } from '../types';
 import { getFeaturedProperties } from '../services/propertyService';
 import { Link } from 'react-router-dom';

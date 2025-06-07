@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactForm from '../components/ContactForm';
+import ContactForm from '../src/components/ContactForm';
 import { submitContactForm } from '../services/propertyService';
 import { ContactMessage } from '../types';
 

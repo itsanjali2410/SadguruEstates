@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import BlogCard from '../components/BlogCard';
-import Spinner from '../components/Spinner';
+import BlogCard from '../src/components/BlogCard';
+import Spinner from '../src/components/Spinner';
 import { BlogArticle } from '../types';
 import { getBlogArticles } from '../services/propertyService';
 

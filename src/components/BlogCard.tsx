@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BlogArticle } from '../types';
+import { BlogArticle } from '../../types';
 
 interface BlogCardProps {
   article: BlogArticle;

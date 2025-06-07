@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ContactMessage } from '../types';
+import { ContactMessage } from '../../types';
 import Alert from './Alert';
 
 interface ContactFormProps {

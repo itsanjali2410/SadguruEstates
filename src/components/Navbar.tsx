@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink as RouterNavLink } from 'react-router-dom';
-import { NAV_LINKS } from '../constants';
-import type { NavLink } from '../types';
+import { NAV_LINKS } from '../../constants';
+import type { NavLink } from '../../types';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
