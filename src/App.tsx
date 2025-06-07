@@ -11,6 +11,7 @@ import ContactPage from '../pages/ContactPage';
 import NotFoundPage from '../pages/NotFoundPage';
 import ScrollToTop from './components/ScrollToTop';
 
+
 const App: React.FC = () => {
   return (
     <HashRouter>
